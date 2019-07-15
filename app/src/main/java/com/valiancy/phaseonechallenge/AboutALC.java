@@ -6,6 +6,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.webkit.WebView;
 
 public class AboutALC extends AppCompatActivity {
 
@@ -16,6 +17,10 @@ public class AboutALC extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        WebView aboutWebView = findViewById(R.id.webView);
+        String url = "https://andela.com/alc/";
+        aboutWebView.loadUrl(url);
     }
 
 }
