@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Phase One Challenge</string>
+    <string name="title_activity_about_alc">About ALC</string>
+    <string name="title_activity_my_profile">My Profile</string>
+    <string name="intro_text">Welcome to ALC 4.0</string>
+    <string name="about_alc">About ALC</string>
+    <string name="my_profile">My Profile</string>
+</resources>
